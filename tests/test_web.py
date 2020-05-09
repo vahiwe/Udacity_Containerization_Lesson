@@ -8,7 +8,7 @@ import pytest
 sys.path.append("../flask_app")
 
 #flask app
-from web import app
+from flask_app.web import app
 
 @pytest.fixture
 def client():
